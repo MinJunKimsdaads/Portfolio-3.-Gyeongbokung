@@ -74,10 +74,10 @@ header > img:hover {
 
 #header #viewmore {
     color: white;
-    background-color: #3672f7;
+    /* background-color: #3672f7; */
     width: 120px;
     height: 38px;
-    border: none;
+    border: solid 3px #3672f7;
     position: absolute;
     top: 47%;
     /* left: 50%; */
@@ -85,16 +85,16 @@ header > img:hover {
     z-index: 100;
     border-radius: 5px;
     text-align: center;
-    padding-top: 7px;
+    padding-top: 5px;
 }
 
 #header #viewmore:hover {
-    background-color: #2159e0;
+    border: solid 3px #2159e0;
     cursor: pointer;
 }
 
 #header #viewmore:active {
-    background-color: #1748c1;
+    border: solid 3px #1748c1;
 }
 
 #header #learnmore:hover {
@@ -126,8 +126,8 @@ header > img:hover {
     height: 50px;
     /* background-color: pink; */
     position: relative;
-    top: 0;
-    left: 0;
+    top: 30px;
+    left: 30px;
     /* left: 50%;
     transform: translateX(-75%); */
 }
