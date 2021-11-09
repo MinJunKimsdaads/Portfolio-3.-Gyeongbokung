@@ -163,6 +163,10 @@ header > img:hover {
     /* display: none; */
     box-shadow: -10px 10px 40px -8px black;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #hamburgermenu div {
@@ -173,14 +177,15 @@ header > img:hover {
     border-radius: 20px;
     background: white;
     box-shadow:  inset 0px 0px 5px 1px #000000;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    /* position: relative; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
     text-align: center;
     padding-top: 13px;
+    margin-top: 60px;
 }
 
-#hamburgermenu .item1 {
+/* #hamburgermenu .item1 {
     top: 20%;
 }
 
@@ -198,7 +203,7 @@ header > img:hover {
 
 #hamburgermenu .item5 {
     top: 55%;
-}
+} */
 
 #hamburgermenu .item:hover {
     cursor: pointer;
