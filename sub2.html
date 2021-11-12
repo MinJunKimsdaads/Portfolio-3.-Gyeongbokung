@@ -51,11 +51,36 @@
                         next();
                     });
                 });
+
+                $(function(){
+        $("#hamburgermenu").hide();
+    })
+
+    $(function(){
+        $("#hamburgernav").click(function(){
+            $("#hamburgermenu").toggle();
+        })
+
+        $(window).scroll(function(){
+            $("#hamburgermenu").hide();
+        })
+    })
             
         </script>
       </head>
 
 <body>
+    <header id = "header">
+        <div id ="logo"><img src="./image/header/logo3.png"></div>
+        <img src="./image/header/hamburgericon2.png" alt ="xx" id ="hamburgernav">
+        <div id = "hamburgermenu">
+            <div class="item item1"><a href="./sub1.html">경복궁 관리소</a></div>
+                <div class="item item2"><a href="./sub3.html">미리보는 경복궁</a></div>
+                <div class="item item3"><a href="./sub2.html">경복궁 행사</a></div>
+                <div class="item item4"><a href="./sub1.html">관람안내</a></div>
+                <div class="item item5"><a href="./sub1.html">관람예약/취소</a></div>
+        </div>
+    </header>
     <div id="back" style="background-image:url(img/hanji.jpg);">
         <div id="slidewrap">
             <ul class="slide">
@@ -305,5 +330,22 @@
         </div>
     </div>
 </div>
+<footer>
+    <div id = "footer">
+        <div id = "logo2">
+            <img src="./image/footer/logo2.png">
+        </div>
+        <div id = "description">
+            <p>
+                우)03045 서울특별시 종로구 사직로 161<br>
+                전화번호(02) 3700-3900 팩스(02) 3700-3909<br>
+                COPYRIGHT 2014 BY GYEONGBOKGUNG. ALL RIGHTS RESERVED.
+            </p>
+            <div id = "logo3">
+                <img src="./image/footer/logo3.png">
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
