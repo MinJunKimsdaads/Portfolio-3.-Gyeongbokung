@@ -1,6 +1,6 @@
-<h1>Portfolio-1.G-SHOCK</h1>
+<h1>Portfolio-3. Gyeongbokung</h1>
 
-<h2>html, css, javascript 처음 공부 겸 웹페이지 제작</h2>
+<h2>html, css, javascript 첫 협업 진행</h2>
 
 <div>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
@@ -10,13 +10,13 @@
 </div>
 
 <h2>소요기간</h2>
-3days
+2days
 
 <h2>소감</h2>
-<p>1. html, css 코드를 줄일 수 있는 방법이 있었으면 좋겠다.</p>
-<p>2. 제이쿼리는 자바스크립트보다 편하다.</p>
-<p>3. 페이지가 다양해질 수록 이벤트 리스너가 많아져서 보기 않좋음</p>
+<p>1. 학원에서 조원들끼리 협업해서 만들어 보라고 해서 첫 부분을 제작함.</p>
+<p>2. 영상파일을 스크롤위치로 재생 시킴.</p>
+<p>3. 제이쿼리 이후 다른 라이브러리를 사용했는데 문서가 거의 영어라 국내에서 따로 가이드 존재 x</p>
 
-<a href="https://web-portfolio-1-g-shock-vpkwa2blid77oz2.sel4.cloudtype.app/">Demo</a>
+<a href="https://web-portfolio-3--gyeongbokung-7xwyjq992llilepkkl.sel4.cloudtype.app/">Demo</a>
 
 <h6>2023-11-22 노션 -> git으로 이동</h6>
