@@ -18,6 +18,6 @@
 <p>2. 영상파일을 스크롤위치로 재생 시킴.</p>
 <p>3. 제이쿼리 이후 다른 라이브러리를 사용했는데 문서가 거의 영어라 국내에서 따로 가이드 존재 x</p>
 
-<a href="https://web-portfolio-3--gyeongbokung-7xwyjq992llilepkkl.sel4.cloudtype.app/">Demo</a>
+<a href="https://minjunkimsdaads.github.io/Portfolio-3.-Gyeongbokung/">Demo</a>
 
 <h6>2023-11-22 노션 -> git으로 이동</h6>
